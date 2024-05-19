@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="39a8e42513454ef9848b68ed00459221" Name="Diagram1" ZoomLevel="39">
+        <EntityTypeShape EntityType="OPBD_COURSEModel.CommandRole" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OPBD_COURSEModel.Matches" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OPBD_COURSEModel.Player" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OPBD_COURSEModel.RoleName" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OPBD_COURSEModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OPBD_COURSEModel.Team" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OPBD_COURSEModel.Tournaments" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="OPBD_COURSEModel.FK__CommandRo__Playe__3F115E1A" ManuallyRouted="false" />
+        <AssociationConnector Association="OPBD_COURSEModel.FK__CommandRo__RoleI__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="OPBD_COURSEModel.FK__CommandRo__TeamI__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="OPBD_COURSEModel.FK__Matches__Team1ID__4B7734FF" ManuallyRouted="false" />
+        <AssociationConnector Association="OPBD_COURSEModel.FK__Matches__Team2ID__4C6B5938" ManuallyRouted="false" />
+        <AssociationConnector Association="OPBD_COURSEModel.FK__Matches__Tournam__4A8310C6" ManuallyRouted="false" />
+        <AssociationConnector Association="OPBD_COURSEModel.FK__Matches__WinnerI__4D5F7D71" ManuallyRouted="false" />
+        <AssociationConnector Association="OPBD_COURSEModel.FK__Tournamen__Organ__44CA3770" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
